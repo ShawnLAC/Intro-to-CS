@@ -32,7 +32,7 @@
 
     
 
-    ![Screen Shot 2020-12-02 at 6.01.16 PM](/Users/yanxiangru/2020找实习/实习准备——数据库.assets/Screen Shot 2020-12-02 at 6.01.16 PM.png)
+    ![图1](https://github.com/ShawnLAC/Intro-to-CS/blob/main/images/Database/Screen%20Shot%202020-12-02%20at%206.01.16%20PM.png)
 
 
 - MYSQL事务提交的流程？
