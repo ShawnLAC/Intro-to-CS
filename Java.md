@@ -1,4 +1,4 @@
-# 实习准备——Java基础
+# Java基础
 
 ## 1.JVM
 
@@ -149,10 +149,6 @@ GC两种类型：轻GC（普通的GC），重GC（全局GC）
 #### 阻塞队列
 
 - 有哪些API?
-
-  ![img](/Users/yanxiangru/2020找实习/实习准备——Java基础.assets/format,png.png)
-
-  ![Screen Shot 2020-12-14 at 8.54.36 PM](/Users/yanxiangru/2020找实习/实习准备——Java基础.assets/Screen Shot 2020-12-14 at 8.54.36 PM.png)
 
   - add(E): 添加元素，会抛出异常
 
