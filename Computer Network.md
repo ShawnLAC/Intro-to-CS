@@ -1,4 +1,4 @@
-# 实习准备——计算机网络
+# 计算机网络
 
 ## 1.物理层
 
@@ -69,7 +69,7 @@
 
   TCP是面向连接的协议，TCP建立连接的三个步骤称为三次握手。
 
-  ![三次握手](/Users/yanxiangru/2020找实习/实习准备——计算机网络.assets/20191129101827556_21212.png)
+  ![三次握手](https://github.com/ShawnLAC/Intro-to-CS/blob/main/images/NetWork/20191129101827556_21212.png)
 
   - 第一次握手：Client将SYN置1，**随机**产生一个初始序列号seq发送给Server，进入**SYN_SENT**状态
   - 第二次握手：Server收到Client的SYN=1之后，知道客户端请求建立连接，将自己的SYN置1，ACK置1，产生一个acknowledge number=sequence number+1，并**随机**产生一个自己的初始序列号，发送给客户端；进入**SYN_RCVD**状态
@@ -97,7 +97,7 @@
   
 - 什么是四次挥手？2222
 
-  ![四次挥手](/Users/yanxiangru/2020找实习/实习准备——计算机网络.assets/20191129112652915_15481.png)
+  ![四次挥手](https://github.com/ShawnLAC/Intro-to-CS/blob/main/images/NetWork/20191129112652915_15481.png)
 
   - 第一次挥手：Client将FIN置为1，发送一个序列号seq给Server；进入**FIN_WAIT_1**状态
   - 第二次挥手：Server收到FIN之后，发送一个ACK=1，acknowledge number=收到的序列号+1；进入**CLOSE_WAIT**状态。此时客户端已经没有要发送的数据了，但仍可以接受服务器发来的数据
@@ -128,7 +128,7 @@
   
 - **TCP的拥塞控制怎么实现的**？
 
-  ![拥塞控制](/Users/yanxiangru/2020找实习/实习准备——计算机网络.assets/20191129153624025_28293.png)
+  ![拥塞控制](https://github.com/ShawnLAC/Intro-to-CS/blob/main/images/NetWork/20191129153624025_28293.png)
 
   - 拥塞控制主要由四个算法组成：**慢启动（Slow Start）、拥塞避免（Congestion voidance）、快重传 （Fast Retransmit）、快恢复（Fast Recovery）**
 
